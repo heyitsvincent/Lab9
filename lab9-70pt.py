@@ -13,4 +13,10 @@
 # Calculate fahrenheit
 # Output answer
 
-print 
+print "what is your celcius for fahrenheit?"
+userinput = int(raw_input())
+fahrenheit = userinput * 9
+fahrenheit1 = fahrenheit / 5
+fahrenheit2 = fahrenheit1 + 32
+print fahrenheit2 
+ 
